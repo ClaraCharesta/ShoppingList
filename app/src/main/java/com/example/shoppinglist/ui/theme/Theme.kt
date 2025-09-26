@@ -11,31 +11,31 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    primary = RedDark,
-    onPrimary = RedOn,
-    primaryContainer = RedDarkPrimaryContainer,
-    onPrimaryContainer = RedDarkOnPrimaryContainer,
-    secondary = RedSecondary,
-    secondaryContainer = RedDarkSecondaryContainer,
-    onSecondaryContainer = RedDarkOnSecondaryContainer,
-    background = RedDarkBackground,
-    onBackground = RedDarkOnBackground,
-    surface = RedSurfaceDark,
-    onSurface = RedOnSurfaceDark
+    primary = YellowDark,
+    onPrimary = YellowOn,
+    primaryContainer = YellowDarkPrimaryContainer,
+    onPrimaryContainer = YellowDarkOnPrimaryContainer,
+    secondary = YellowSecondary,
+    secondaryContainer = YellowDarkSecondaryContainer,
+    onSecondaryContainer = YellowDarkOnSecondaryContainer,
+    background = YellowDarkBackground,
+    onBackground = YellowDarkOnBackground,
+    surface = YellowSurfaceDark,
+    onSurface = YellowOnSurfaceDark
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = RedLight,
-    onPrimary = RedOn,
-    primaryContainer = RedPrimaryContainer,
-    onPrimaryContainer = RedOnPrimaryContainer,
-    secondary = RedSecondary,
-    secondaryContainer = RedSecondaryContainer,
-    onSecondaryContainer = RedOnSecondaryContainer,
-    background = RedBackground,
-    onBackground = RedOnBackground,
-    surface = RedSurface,
-    onSurface = RedOnSurface
+    primary = YellowLight,
+    onPrimary = YellowOn,
+    primaryContainer = YellowPrimaryContainer,
+    onPrimaryContainer = YellowOnPrimaryContainer,
+    secondary = YellowSecondary,
+    secondaryContainer = YellowSecondaryContainer,
+    onSecondaryContainer = YellowOnSecondaryContainer,
+    background = YellowBackground,
+    onBackground = YellowOnBackground,
+    surface = YellowSurface,
+    onSurface = YellowOnSurface
 )
 
 @Composable
